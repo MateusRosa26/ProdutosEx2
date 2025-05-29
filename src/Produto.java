@@ -9,6 +9,30 @@ public class Produto {
         this.quantidadeEmEstoque = quantidadeEmEstoque;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String novoNome) {
+        this.nome = novoNome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double novoPreco) {
+        this.preco = novoPreco;
+    }
+
+    public int getQuantidadeEmEstoque() {
+        return quantidadeEmEstoque;
+    }
+
+    public void setQuantidadeEmEstoque(int novaQuantidade) {
+        this.quantidadeEmEstoque = novaQuantidade;
+    }
+
     public void alterarNome(String novoNome) {
         this.nome = novoNome;
     }

@@ -30,6 +30,29 @@ public class Main {
         System.out.println("PRODUTO 2 APÓS ALTERAÇÕES:");
         produto2.exibirInformacoes();
 
+        System.out.println("=== DEMONSTRAÇÃO DE GETTERS E SETTERS ===\n");
+
+        Produto produto3 = new Produto("Macarrão", 4.50, 200);
+
+        System.out.println("LENDO VALORES COM GETTERS:");
+        System.out.println("Nome: " + produto3.getNome());
+        System.out.println("Preço: R$ " + produto3.getPreco());
+        System.out.println("Estoque: " + produto3.getQuantidadeEmEstoque());
+        System.out.println();
+
+        System.out.println("ALTERANDO COM SETTERS:");
+        produto3.setNome("Macarrão Parafuso 500g");
+        produto3.setPreco(3.75);
+        produto3.setQuantidadeEmEstoque(150);
+
+        System.out.println("CONFIRMANDO ALTERAÇÕES:");
+        System.out.println("Nome: " + produto3.getNome());
+        System.out.println("Preço: R$ " + produto3.getPreco());
+        System.out.println("Estoque: " + produto3.getQuantidadeEmEstoque());
+        System.out.println();
+
+        produto3.exibirInformacoes();
+
         System.out.println("=== SISTEMA TESTADO COM SUCESSO! ===");
     }
 } 
