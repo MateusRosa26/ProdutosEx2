@@ -9,6 +9,10 @@ public class Produto {
         this.quantidadeEmEstoque = quantidadeEmEstoque;
     }
 
+    public void alterarNome(String novoNome) {
+        this.nome = novoNome;
+    }
+
     public void alterarPreco(double novoPreco) {
         this.preco = novoPreco;
     }
